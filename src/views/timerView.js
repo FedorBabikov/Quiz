@@ -1,4 +1,4 @@
-import { TIMER_ELEMENT_ID } from '../constants.JS';
+import { TIMER_ELEMENT_ID } from '../constants.js';
 
 export const setTimer = () => {
   //const startMinutes = 1;

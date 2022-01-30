@@ -85,6 +85,11 @@ export const initQuestionPage = (userInterface, refresh = '') => {
       option.removeEventListener('click', chooseAnswer);
       option.style.color = "black";
     }
+
+    const clickError = document.getElementById('error');
+    if (!!clickError) {
+      clickError.remove();
+    }
   }
 
   setTimer();
@@ -95,6 +100,7 @@ export const initQuestionPage = (userInterface, refresh = '') => {
       if (clickCount < 2) {
         const clickError = createErrorElement(isLastQuestion());
         clickError.classList.add('error');
+        clickError.setAttribute('id', 'error');
         answersListElement.appendChild(clickError);
       }
     } else {

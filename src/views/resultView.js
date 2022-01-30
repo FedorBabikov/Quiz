@@ -15,7 +15,7 @@ export const createResultElement = (correctSum, wrongSum, timeScore) => {
         <a href="https://www.w3schools.com/" class="link reference-link">https://w3schools.com</a>
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="link reference-link">MDN-WebDocs/javascript</a>
         <a href="https://javascript.info/" class="link reference-link">https://javascript.info</a>
-        <button class ="btn" id="${RESTART_BUTTON_ID}"> try again</button>
+        <button class ="btn" id="${RESTART_BUTTON_ID}">Try again</button>
     `;
   return element;
 };

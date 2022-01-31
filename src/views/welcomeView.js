@@ -13,7 +13,7 @@ export const createWelcomeElement = () => {
     <ul>
     <li>You have 1 min for each question</li>
     <hr>
-    <li>Answer within 30 sec and get extra 'time points'</li>
+    <li>if (ansTime < 30sec) get('time points');</li>
     <hr>
     <li>Feel confused? Check out the references</li>
     <hr>

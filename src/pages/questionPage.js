@@ -1,9 +1,6 @@
 'use strict';
 
-import { ANSWERS_LIST_ID, REFERENCE_LIST_ID } from '../constants.js';
-import { NEXT_QUESTION_BUTTON_ID } from '../constants.js';
-import { GET_RESULT_BUTTON_ID } from '../constants.js';
-import { TIMER_ELEMENT_ID } from '../constants.js';
+import { ANSWERS_LIST_ID, REFERENCE_LIST_ID, NEXT_QUESTION_BUTTON_ID, GET_RESULT_BUTTON_ID, TIMER_ELEMENT_ID } from '../constants.js';
 import { createQuestionElement } from '../views/questionView.js';
 import { createAnswerElement } from '../views/answerView.js';
 import { setTimer } from '../views/timerView.js';

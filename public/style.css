@@ -211,7 +211,7 @@ hr {
   list-style-position: outside;
   max-width: 400px;
   line-height: 1.5rem;
-  text-align: center;
+  text-align: left;
 }
 
 #welcome-interface > div li:first-child {

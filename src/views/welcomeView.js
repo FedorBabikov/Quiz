@@ -11,7 +11,7 @@ export const createWelcomeElement = () => {
     <div class="instruction">
     <h3>User Guide</h3>
     <ul>
-    <li>You have 1 min for each question</li>
+    <li>You have 1min for each question</li>
     <hr>
     <li>if (ansTime < 30sec) get('time points');</li>
     <hr>

@@ -248,6 +248,10 @@ hr {
   margin: 1rem;
 }
 
+#question-interface > *, #answers-list > *, #answers-list + div > * {
+  max-width: 100%;
+}
+
 #question-interface h1 {
   width: 100%;
   margin: auto;
@@ -284,7 +288,7 @@ hr {
   list-style: none;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
   min-height: 300px;
 }
 
@@ -336,6 +340,7 @@ hr {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  gap: 0.5rem;
   margin-top: 0.5rem;
 }
 
@@ -515,12 +520,6 @@ ol li {
 }
 
 @media screen and (max-width: 1024px) {
-  .answer-item {
-    min-width: 300px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
   body {
     background-repeat: repeat;
     background-size: 100% 100%;
@@ -569,7 +568,7 @@ ol li {
     display: none;
   }
   #question-interface li {
-    line-height: 1.75rem;
+    line-height: 55px;
     font-weight: 400;
     font-size: 1.5rem;
     height: 55px;
@@ -579,5 +578,25 @@ ol li {
   }
   #question-interface ol {
     width: 300px;
+  }
+  .answer-item {
+    min-width: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #user-interface {
+    height: max-content;
+    height: auto;
+    width: 90vw;
+  }
+  #question-interface {
+    gap: 0px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  #answers-list + div > * {
+    font-size: 1.5rem;
   }
 }

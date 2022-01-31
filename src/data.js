@@ -139,7 +139,7 @@ export const quizData = {
       ],
     },
     {
-      text: 'What will the following code return: Boolean(10 > 9)',
+      text: 'What will the following code return: Boolean(10 > 9)?',
       answers: {
         a: 'NaN',
         b: 'true',
@@ -161,7 +161,7 @@ export const quizData = {
       ],
     },
     {
-      text: 'What IIFE refers to in javascript',
+      text: 'What IIFE refers to in javascript?',
       answers: {
         a: 'Immediately Invoked Function Expression',
         b: 'normal function',
@@ -182,7 +182,7 @@ export const quizData = {
       ],
     },
     {
-      text: 'How can we read the properties of an object',
+      text: 'How can we read the properties of an object?',
       answers: {
         a: 'print',
         b: 'log',

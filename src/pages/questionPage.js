@@ -136,7 +136,9 @@ export const initQuestionPage = (userInterface, refresh = '') => {
     const clickError = createErrorElement(isLastQuestion(), clickedNode);
     clickError.classList.add('error');
     clickError.setAttribute('id', 'error');
-    answersListElement.appendChild(clickError);
+
+    const questionElement = document.getElementById('question-interface');
+    questionElement.appendChild(clickError);
   }
 
   function isLastQuestion() {
